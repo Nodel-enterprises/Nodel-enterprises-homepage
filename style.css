@@ -4,6 +4,7 @@ body{
     background-color: #121212;
     color: white;
     font-family: 'Open sans';
+    text-align: center;
 }
 
 .header{
@@ -12,4 +13,19 @@ body{
     flex-flow: row;
     align-items: center;
     justify-content: center;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+    background-color: #178585;
+    border-radius: 8px;
+    padding: 8px;
+    opacity: 1.0;
 }
