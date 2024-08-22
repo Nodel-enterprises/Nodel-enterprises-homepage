@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    font-family: 'Open sans';
+}
+
+.header{
+    background-color: #0A3D40;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
